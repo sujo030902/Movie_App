@@ -1,8 +1,17 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Movie App built with React that allows users to search for movies and mark their favorite ones. The movie data is fetched from The Movie Database (TMDB) API. Users can explore the latest movies, search for specific films, and keep track of their favorite movies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies by title, genre, or year.
+- View detailed movie information (overview, rating, release date, etc.).
+- Mark movies as your favorites.
+- Responsive design for seamless experience on both desktop and mobile devices.
+
+## Tech Stack
+
+- **React**: For building the user interface.
+- **TMDB API**: For fetching movie data.
+- **React Router**: For navigation between different pages.
+- **CSS**: For styling the application
