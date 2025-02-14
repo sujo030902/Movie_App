@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Search from './components/Search'
+import Movie_Card from './components/Movie_Card';
 
 const App = () => {
 
@@ -16,7 +17,9 @@ const App = () => {
       <Search search = {search} handleSearch = {handleSearch} />
       </h1>
       <h1>{search}</h1>
+      <Movie_Card />
       </div>
+      
     </>
   )
 }
